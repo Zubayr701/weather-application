@@ -1,6 +1,6 @@
 import React from 'react'
 import './AirItem.css'
-const AirItem = ({airData, airType}) => {
+const AirItem = ({ airData, airType }) => {
   return (
     <li>
       <p>{airType}</p>

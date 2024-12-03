@@ -5,9 +5,8 @@ import { FaRegCompass } from "react-icons/fa";
 import { FaTemperatureHigh } from "react-icons/fa6";
 import { MdOutlineRemoveRedEye, MdOutlineWaterDrop } from "react-icons/md";
 import { IoNavigateOutline } from "react-icons/io5";
-
+import AirItem from "../AirItem/AirItem"
 import "./Right.css";
-import AirItem from "../airItem/airItem";
 import TodayAtItem from "../TodayAtItem/TodayAtItem";
 const Right = ({ air, currentWeather, forecast }) => {
   console.log(forecast);
