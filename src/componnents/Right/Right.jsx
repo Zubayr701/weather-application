@@ -136,7 +136,7 @@ const Right = ({ air, currentWeather, forecast }) => {
 
       <div className="sidebar__hourly">
         <h2>Today at</h2>
-        <ul style={{ width: 1000 }}>
+        <ul>
           {todayAt?.map((el) => (
             <TodayAtItem
               key={`${el.dt}-${el.main.temp}`}
