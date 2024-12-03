@@ -1,0 +1,24 @@
+.sidebar__highlight-details {
+    list-style: none;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-items: center;
+    font-family: sans-serif;
+}
+
+.sidebar__highlight-details li {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    text-align: center;
+}
+
+.sidebar__highlight-details h2 {
+    font-size: 18px;
+}
+
+.sidebar__highlight-details p {
+    color: #767676;
+}
